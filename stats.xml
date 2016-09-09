@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>3603</sentences><tokens>119901</tokens><words>119901</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="14125" /><!-- ,, ., at, í, og, er, tað, á, sum, við, til, um, ikki, av, fyri -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="13">
+    <tag name="ADJ">5872</tag><!-- _ -->
+    <tag name="ADP">13717</tag><!-- _ -->
+    <tag name="ADV">10667</tag><!-- _ -->
+    <tag name="CONJ">7788</tag><!-- _ -->
+    <tag name="INTJ">36</tag><!-- _ -->
+    <tag name="NOUN">21136</tag><!-- _ -->
+    <tag name="NUM">1626</tag><!-- _ -->
+    <tag name="PRON">11185</tag><!-- _ -->
+    <tag name="PROPN">4606</tag><!-- _ -->
+    <tag name="PUNCT">16019</tag><!-- _ -->
+    <tag name="SCONJ">4169</tag><!-- _ -->
+    <tag name="VERB">21450</tag><!-- _ -->
+    <tag name="X">1630</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="33">
+    <feat name="Abbr" value="Yes" upos="X">589</feat><!-- H71, t.d., HB, m.a., KÍ, FM, HF, ES, VÍF, mió. -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">17624</feat><!-- í, um, til, á, við, fyri, tað, seg, eina, eitt -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">17274</feat><!-- í, á, av, við, hjá, fyri, frá, úr, Føroyum, teimum -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN">1131</feat><!-- til, Føroya, okkara, teirra, Tórshavnar, ára, hansara, Havnar, Klaksvíkar, tess -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">32087</feat><!-- tað, ikki, so, vit, hann, ein, eisini, nú, teir, tey -->
+    <feat name="Definite" value="Def" upos="NOUN,PROPN">9394</feat><!-- málið, landsstýrið, ætlanin, árini, arbeiðið, løtuni, klokkan, landinum, felagið, børnini -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">886</feat><!-- fleiri, meira, heldur, fyrr, meiri, størri, betri, minni, víðari, verri -->
+    <feat name="Degree" value="Pos" upos="ADJ">4977</feat><!-- nógv, nýggja, føroyska, øllum, gott, neyðugt, sama, danska, greitt, stórur -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">619</feat><!-- fyrst, seinastu, flestu, seinasta, minst, mest, helst, fyrsta, best, einasta -->
+    <feat name="Foreign" value="Foreign" upos="X">873</feat><!-- Foto, Maersk, Tele, Air, Line, Cannes, Kilda, St, Flux, Micon -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">11729</feat><!-- eina, ein, Føroyum, tær, Føroya, hon, Føroyar, havn, krónur, tíð -->
+    <feat name="Gender" value="Masc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">14643</feat><!-- hann, ein, teir, seg, tann, dag, sær, teimum, einum, føroyingar -->
+    <feat name="Gender" value="Neut" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">15866</feat><!-- tað, tey, eitt, hetta, fólk, ár, hesum, seg, nakað, hvat -->
+    <feat name="Mood" value="Imp" upos="VERB">39</feat><!-- Sláið, Hygg, Knalla, Royn, gakk, ger, lat, latið, Ímynda, Gev -->
+    <feat name="Mood" value="Ind" upos="VERB">13281</feat><!-- er, hevur, sigur, eru, verður, var, hava, kann, skal, fer -->
+    <feat name="NameType" value="Geo" upos="PROPN">2021</feat><!-- Føroyum, Føroya, Føroyar, Havn, Klaksvík, Danmark, Vági, Tórshavnar, Havnar, Suðuroynni -->
+    <feat name="NameType" value="Prs" upos="PROPN">2585</feat><!-- Joensen, Poulsen, Johannesen, Jacobsen, Kristian, Unn, Petur, Olsen, Petersen, Nielsen -->
+    <feat name="Number" value="Plur" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">16166</feat><!-- vit, eru, hava, tey, teir, Føroyum, teimum, fólk, vóru, Føroya -->
+    <feat name="Number" value="Sing" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">41245</feat><!-- er, tað, hevur, ein, hann, sigur, verður, var, eitt, hetta -->
+    <feat name="NumType" value="Card" upos="NUM">1424</feat><!-- tveir, fýra, 2, fimm, 10, 20, tvey, tveimum, 25, tríggjar -->
+    <feat name="NumType" value="Ord" upos="NUM">199</feat><!-- 1, fyrstu, fyrsta, 2, 19, 12, 4, triðja, 10, 9 -->
+    <feat name="Person" value="1" upos="PRON,VERB">2164</feat><!-- vit, eg, okkum, hava, okkara, kunnu, havi, eru, skulu, haldi -->
+    <feat name="Person" value="2" upos="PRON,VERB">277</feat><!-- tú, tær, hevur, kanst, sært, gert, tit, koyrir, teg, fært -->
+    <feat name="Person" value="3" upos="PRON,VERB">17422</feat><!-- er, tað, hevur, hann, sigur, verður, eru, var, hava, teir -->
+    <feat name="PronType" value="Dem" upos="PRON">1797</feat><!-- hetta, hesum, tann, tað, tey, tí, teimum, hesi, tær, teir -->
+    <feat name="PronType" value="Ind" upos="PRON">3165</feat><!-- ein, eitt, eina, einum, nakað, eini, annað, øll, onnur, øðrum -->
+    <feat name="PronType" value="Prs" upos="PRON">6223</feat><!-- tað, vit, hann, teir, seg, tey, eg, sær, hon, okkum -->
+    <feat name="Tense" value="Past" upos="VERB">6387</feat><!-- var, verið, vóru, hevði, varð, fingið, gjørt, høvdu, kom, skuldi -->
+    <feat name="Tense" value="Pres" upos="VERB">10826</feat><!-- er, hevur, sigur, eru, verður, hava, kann, skal, fer, heldur -->
+    <feat name="VerbForm" value="Fin" upos="VERB">13679</feat><!-- er, hevur, sigur, eru, verður, var, hava, kann, skal, fer -->
+    <feat name="VerbForm" value="Inf" upos="SCONJ,VERB">6895</feat><!-- at, vera, fáa, hava, gera, siga, fara, taka, verða, koma -->
+    <feat name="VerbForm" value="Part" upos="VERB">3573</feat><!-- verið, fingið, gjørt, farið, havt, sagt, sett, tikið, komandi, lagt -->
+    <feat name="Voice" value="Mid" upos="VERB">718</feat><!-- gerast, tykist, gjørdist, eydnast, brúkast, setast, nærkast, skilst, ferðast, finnast -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="1">
+    <dep name="root">119901</dep>
+  </deps>
+</treebank>
