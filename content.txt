@@ -1,0 +1,12 @@
+http://stava.fo/download/tagged_corpus.zip
+
+POS-tagged corpus of faroese.
+
+The corpus consists of articles from the newspaper Sosialurin.
+
+The size is ca. 100.000 running words.
+
+Files:
+fo.txt		Tagged corpus with one word pr. line
+tagset.pdf	Overview of the tagset
+
