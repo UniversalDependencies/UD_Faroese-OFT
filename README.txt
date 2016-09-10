@@ -1,5 +1,6 @@
 fo-ud-tagged.conllu: Tagged corpus converted to UD from http://stava.fo/
 fo-ud-wiki.conllu: Extracted sentences from Wikipedia
+fo-ud-dev.conllu: Manually annotated sentences
 
 --- Machine-readable metadata ---
 Documentation status: stub
