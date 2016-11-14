@@ -5,65 +5,137 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>3603</sentences><tokens>119901</tokens><words>119901</words><fused>0</fused></total>
+    <total><sentences>5031</sentences><tokens>132260</tokens><words>132260</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="14125" /><!-- ,, ., at, í, og, er, tað, á, sum, við, til, um, ikki, av, fyri -->
+  <lemmas unique="2679" /><!-- ., vera, í, og, ein, ,, :, býur, stórur, á, at, av, kommuna, eisini, við -->
+  <forms unique="16214" /><!-- ,, ., at, í, og, er, tað, á, sum, við, til, um, ikki, av, fyri -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="13">
-    <tag name="ADJ">5872</tag><!-- _ -->
-    <tag name="ADP">13717</tag><!-- _ -->
-    <tag name="ADV">10667</tag><!-- _ -->
+  <tags unique="50">
+    <tag name="1">1</tag><!-- 500 -->
+    <tag name="10">1</tag><!-- % -->
+    <tag name="100">1</tag><!-- 000 -->
+    <tag name="14,5">1</tag><!-- % -->
+    <tag name="15">1</tag><!-- % -->
+    <tag name="162">1</tag><!-- 920 -->
+    <tag name="164">1</tag><!-- 130 -->
+    <tag name="2,4">1</tag><!-- - -->
+    <tag name="2,9">1</tag><!-- % -->
+    <tag name="23">2</tag><!-- % -->
+    <tag name="27">1</tag><!-- % -->
+    <tag name="28">1</tag><!-- 281,14 -->
+    <tag name="29">1</tag><!-- % -->
+    <tag name="3">1</tag><!-- % -->
+    <tag name="30">1</tag><!-- % -->
+    <tag name="32">1</tag><!-- % -->
+    <tag name="350">1</tag><!-- 000 -->
+    <tag name="37,5">1</tag><!-- % -->
+    <tag name="37.1">1</tag><!-- % -->
+    <tag name="40">3</tag><!-- % -->
+    <tag name="47,3">1</tag><!-- % -->
+    <tag name="49.2">1</tag><!-- % -->
+    <tag name="50">1</tag><!-- % -->
+    <tag name="51,2">1</tag><!-- % -->
+    <tag name="52">1</tag><!-- % -->
+    <tag name="6,1">1</tag><!-- % -->
+    <tag name="64,9">1</tag><!-- % -->
+    <tag name="73">1</tag><!-- % -->
+    <tag name="74">1</tag><!-- % -->
+    <tag name="84">1</tag><!-- % -->
+    <tag name="90">2</tag><!-- % -->
+    <tag name="94">1</tag><!-- % -->
+    <tag name="ADJ">6695</tag><!-- _, stórur, nógvur, mangur, annar, føroyskur, góður, gamal, høgur, lítil -->
+    <tag name="ADP">15279</tag><!-- _, í, á, av, við, til, fyri, hjá, sum, um -->
+    <tag name="ADV">11172</tag><!-- _, eisini, har, ikki, nú, so, enn, tá, tó, upp -->
+    <tag name="CCONJ">355</tag><!-- og, men, ella, bæði, antin -->
     <tag name="CONJ">7788</tag><!-- _ -->
-    <tag name="INTJ">36</tag><!-- _ -->
-    <tag name="NOUN">21136</tag><!-- _ -->
-    <tag name="NUM">1626</tag><!-- _ -->
-    <tag name="PRON">11185</tag><!-- _ -->
-    <tag name="PROPN">4606</tag><!-- _ -->
-    <tag name="PUNCT">16019</tag><!-- _ -->
-    <tag name="SCONJ">4169</tag><!-- _ -->
-    <tag name="VERB">21450</tag><!-- _ -->
+    <tag name="DET">260</tag><!-- ein, allur, sín, summur, hasin, mín -->
+    <tag name="INTJ">38</tag><!-- _, ja, nei -->
+    <tag name="NOUN">24207</tag><!-- _, býur, kommuna, høvuðsstaður, fólk, land, landslutur, dagur, oyggj, partur -->
+    <tag name="NUM">1923</tag><!-- _, eitt, tvey, 2, 10, 18, 2011, trý, 2005, 4 -->
+    <tag name="PART">107</tag><!-- at -->
+    <tag name="PRON">11482</tag><!-- _, hon, hann, tað, hesin, seg, teir, vit, eg, nakar -->
+    <tag name="PROPN">5688</tag><!-- _, Føroyar, Svøríki, Noreg, Danmark, Niðurlond, Kanada, Amerika, Grønland, Russland -->
+    <tag name="PUNCT">17979</tag><!-- _, ., ,, :, ", (, ), -, ;, ^excl -->
+    <tag name="SCONJ">4268</tag><!-- _, sum, at, ið, um, meðan, tí, hóast, áðrenn -->
+    <tag name="VERB">23338</tag><!-- _, vera, hava, verða, síggja, koma, fara, gera, búgva, liggja -->
     <tag name="X">1630</tag><!-- _ -->
+    <tag name="fram">8</tag><!-- við -->
+    <tag name="tá">7</tag><!-- ið -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="33">
+  <feats unique="44">
+    <feat name="1,1" value="" upos="2,4">1</feat><!-- 1,1 -->
     <feat name="Abbr" value="Yes" upos="X">589</feat><!-- H71, t.d., HB, m.a., KÍ, FM, HF, ES, VÍF, mió. -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">17624</feat><!-- í, um, til, á, við, fyri, tað, seg, eina, eitt -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">17274</feat><!-- í, á, av, við, hjá, fyri, frá, úr, Føroyum, teimum -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN">1131</feat><!-- til, Føroya, okkara, teirra, Tórshavnar, ára, hansara, Havnar, Klaksvíkar, tess -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB">32087</feat><!-- tað, ikki, so, vit, hann, ein, eisini, nú, teir, tey -->
-    <feat name="Definite" value="Def" upos="NOUN,PROPN">9394</feat><!-- málið, landsstýrið, ætlanin, árini, arbeiðið, løtuni, klokkan, landinum, felagið, børnini -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">886</feat><!-- fleiri, meira, heldur, fyrr, meiri, størri, betri, minni, víðari, verri -->
-    <feat name="Degree" value="Pos" upos="ADJ">4977</feat><!-- nógv, nýggja, føroyska, øllum, gott, neyðugt, sama, danska, greitt, stórur -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">619</feat><!-- fyrst, seinastu, flestu, seinasta, minst, mest, helst, fyrsta, best, einasta -->
+    <feat name="ADP" value="" upos="fram">8</feat><!-- í, á, við, til, av, fyri, um, hjá, frá, eftir -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">18319</feat><!-- í, um, til, á, við, fyri, tað, seg, eina, eitt -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">18627</feat><!-- í, á, av, við, hjá, fyri, frá, Føroyum, úr, teimum -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN">1304</feat><!-- til, Føroya, okkara, teirra, Tórshavnar, hansara, ára, Havnar, Klaksvíkar, dømis -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">35604</feat><!-- tað, ikki, so, vit, hann, ein, eisini, nú, teir, tey -->
+    <feat name="Definite" value="Def" upos="ADJ,NOUN,PROPN,VERB">10743</feat><!-- málið, størsti, ætlanin, landsstýrið, árini, landinum, býurin, arbeiðið, landið, løtuni -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,PROPN,VERB">2822</feat><!-- býur, Føroyum, kommunu, Svøríki, høvuðsstaður, kommuna, nógv, Danmark, fleiri, partur -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">911</feat><!-- fleiri, meira, heldur, fyrr, meiri, størri, minni, betri, víðari, verri -->
+    <feat name="Degree" value="Pos" upos="ADJ,VERB">5673</feat><!-- nógv, nýggja, føroyska, sama, øllum, gott, stórur, neyðugt, stóran, danska -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV,VERB">732</feat><!-- størsti, flestu, fyrst, seinastu, seinasta, størsta, minst, mest, helst, fyrsta -->
     <feat name="Foreign" value="Foreign" upos="X">873</feat><!-- Foto, Maersk, Tele, Air, Line, Cannes, Kilda, St, Flux, Micon -->
-    <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">11729</feat><!-- eina, ein, Føroyum, tær, Føroya, hon, Føroyar, havn, krónur, tíð -->
-    <feat name="Gender" value="Masc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">14643</feat><!-- hann, ein, teir, seg, tann, dag, sær, teimum, einum, føroyingar -->
-    <feat name="Gender" value="Neut" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">15866</feat><!-- tað, tey, eitt, hetta, fólk, ár, hesum, seg, nakað, hvat -->
-    <feat name="Mood" value="Imp" upos="VERB">39</feat><!-- Sláið, Hygg, Knalla, Royn, gakk, ger, lat, latið, Ímynda, Gev -->
-    <feat name="Mood" value="Ind" upos="VERB">13281</feat><!-- er, hevur, sigur, eru, verður, var, hava, kann, skal, fer -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">13081</feat><!-- eina, Føroyum, ein, hon, Føroya, tær, Føroyar, havn, krónur, tíð -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">16821</feat><!-- hann, ein, teir, seg, tann, dag, býur, einum, sær, teimum -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">17050</feat><!-- tað, eitt, tey, hetta, fólk, ár, hesum, seg, nakað, hvat -->
+    <feat name="Mood" value="Imp" upos="VERB">92</feat><!-- Sí, um, Sláið, Hygg, líkist, Royn, lat, les, Knalla, gakk -->
+    <feat name="Mood" value="Ind" upos="VERB">14861</feat><!-- er, eru, hevur, var, verður, sigur, hava, kann, skal, vóru -->
     <feat name="NameType" value="Geo" upos="PROPN">2021</feat><!-- Føroyum, Føroya, Føroyar, Havn, Klaksvík, Danmark, Vági, Tórshavnar, Havnar, Suðuroynni -->
     <feat name="NameType" value="Prs" upos="PROPN">2585</feat><!-- Joensen, Poulsen, Johannesen, Jacobsen, Kristian, Unn, Petur, Olsen, Petersen, Nielsen -->
-    <feat name="Number" value="Plur" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">16166</feat><!-- vit, eru, hava, tey, teir, Føroyum, teimum, fólk, vóru, Føroya -->
-    <feat name="Number" value="Sing" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">41245</feat><!-- er, tað, hevur, ein, hann, sigur, verður, var, eitt, hetta -->
+    <feat name="NUM" value="" upos="1,10,100,14,5,15,162,164,2,9,23,27,28,29,3,30,32,350,37,5,37.1,40,47,3,49.2,50,51,2,52,6,1,64,9,73,74,84,90,94">35</feat><!-- tveir, 2, ein, fýra, 1, 10, fimm, 20, tveimum, tvey -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">17662</feat><!-- eru, vit, hava, teir, tey, Føroyum, vóru, fólk, teimum, Føroya -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">46882</feat><!-- er, tað, ein, hevur, hann, var, verður, sigur, eitt, hetta -->
     <feat name="NumType" value="Card" upos="NUM">1424</feat><!-- tveir, fýra, 2, fimm, 10, 20, tvey, tveimum, 25, tríggjar -->
-    <feat name="NumType" value="Ord" upos="NUM">199</feat><!-- 1, fyrstu, fyrsta, 2, 19, 12, 4, triðja, 10, 9 -->
-    <feat name="Person" value="1" upos="PRON,VERB">2164</feat><!-- vit, eg, okkum, hava, okkara, kunnu, havi, eru, skulu, haldi -->
-    <feat name="Person" value="2" upos="PRON,VERB">277</feat><!-- tú, tær, hevur, kanst, sært, gert, tit, koyrir, teg, fært -->
-    <feat name="Person" value="3" upos="PRON,VERB">17422</feat><!-- er, tað, hevur, hann, sigur, verður, eru, var, hava, teir -->
-    <feat name="PronType" value="Dem" upos="PRON">1797</feat><!-- hetta, hesum, tann, tað, tey, tí, teimum, hesi, tær, teir -->
-    <feat name="PronType" value="Ind" upos="PRON">3165</feat><!-- ein, eitt, eina, einum, nakað, eini, annað, øll, onnur, øðrum -->
-    <feat name="PronType" value="Prs" upos="PRON">6223</feat><!-- tað, vit, hann, teir, seg, tey, eg, sær, hon, okkum -->
-    <feat name="Tense" value="Past" upos="VERB">6387</feat><!-- var, verið, vóru, hevði, varð, fingið, gjørt, høvdu, kom, skuldi -->
-    <feat name="Tense" value="Pres" upos="VERB">10826</feat><!-- er, hevur, sigur, eru, verður, hava, kann, skal, fer, heldur -->
-    <feat name="VerbForm" value="Fin" upos="VERB">13679</feat><!-- er, hevur, sigur, eru, verður, var, hava, kann, skal, fer -->
-    <feat name="VerbForm" value="Inf" upos="SCONJ,VERB">6895</feat><!-- at, vera, fáa, hava, gera, siga, fara, taka, verða, koma -->
-    <feat name="VerbForm" value="Part" upos="VERB">3573</feat><!-- verið, fingið, gjørt, farið, havt, sagt, sett, tikið, komandi, lagt -->
+    <feat name="NumType" value="Ord" upos="NUM">252</feat><!-- 1, fyrstu, fyrsta, 2, 19, 12, 2., 4, triðja, 1. -->
+    <feat name="Person" value="1" upos="PRON,VERB">2181</feat><!-- vit, eg, okkum, hava, okkara, kunnu, havi, eru, skulu, haldi -->
+    <feat name="Person" value="2" upos="PRON,VERB">332</feat><!-- tú, Sí, tær, hevur, kanst, um, sært, gert, tit, koyrir -->
+    <feat name="Person" value="3" upos="PRON,VERB">18782</feat><!-- er, tað, hann, hevur, var, verður, sigur, eru, hava, teir -->
+    <feat name="PronType" value="Dem" upos="PRON">1830</feat><!-- hetta, hesum, tann, tað, tey, tí, teimum, hesi, tær, teir -->
+    <feat name="PronType" value="Ind" upos="PRON">3173</feat><!-- ein, eitt, eina, einum, nakað, eini, annað, øll, onnur, øðrum -->
+    <feat name="PronType" value="Itg" upos="PRON">1</feat><!-- hvat -->
+    <feat name="PronType" value="Pos" upos="DET">9</feat><!-- sína, sínum, síni, mínir -->
+    <feat name="PronType" value="Prs" upos="PRON">6454</feat><!-- tað, hann, vit, teir, tey, seg, eg, hon, sær, okkum -->
+    <feat name="PronType" value="Ref" upos="PRON">24</feat><!-- seg, sær -->
+    <feat name="SCONJ" value="" upos="tá">7</feat><!-- at, sum, ið, og, tá, um, Tí, meðan, hóast, áðrenn -->
+    <feat name="Tense" value="Past" upos="VERB">6770</feat><!-- var, verið, vóru, varð, hevði, fingið, gjørt, høvdu, kom, skuldi -->
+    <feat name="Tense" value="Pres" upos="VERB">12039</feat><!-- er, eru, hevur, verður, sigur, hava, kann, skal, fer, heldur -->
+    <feat name="VerbForm" value="Fin" upos="VERB">15312</feat><!-- er, eru, hevur, var, verður, sigur, hava, kann, skal, vóru -->
+    <feat name="VerbForm" value="Inf" upos="SCONJ,VERB">7038</feat><!-- at, vera, fáa, hava, gera, siga, fara, taka, verða, koma -->
+    <feat name="VerbForm" value="Part" upos="VERB">3589</feat><!-- verið, fingið, gjørt, farið, havt, sagt, sett, tikið, komandi, lagt -->
+    <feat name="VerbForm" value="Sup" upos="VERB">96</feat><!-- verið, sæst, lagt, gjørt, havt, kent, loyvt, skrivað, dyrkað, endurreist -->
+    <feat name="Voice" value="Act" upos="VERB">1734</feat><!-- er, eru, var, vóru, hevur, varð, Sí, verður, býr, kom -->
     <feat name="Voice" value="Mid" upos="VERB">718</feat><!-- gerast, tykist, gjørdist, eydnast, brúkast, setast, nærkast, skilst, ferðast, finnast -->
+    <feat name="Voice" value="Pass" upos="VERB">66</feat><!-- sæst, gjørdist, fæst, nevnist, líkist, gerast, broyttist, búsettust, klekjast, Andaðist -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="1">
-    <dep name="root">119901</dep>
+  <deps unique="25">
+    <dep name="2,4">1</dep>
+    <dep name="Case=Acc">1</dep>
+    <dep name="Case=Dat">2</dep>
+    <dep name="Case=Nom">32</dep>
+    <dep name="_">15</dep>
+    <dep name="advmod">3</dep>
+    <dep name="amod">605</dep>
+    <dep name="aux">11</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">1562</dep>
+    <dep name="cc">355</dep>
+    <dep name="conj">3</dep>
+    <dep name="cop">1081</dep>
+    <dep name="dep">4436</dep>
+    <dep name="det">261</dep>
+    <dep name="mark">2</dep>
+    <dep name="nmod">1330</dep>
+    <dep name="nmod:poss">1</dep>
+    <dep name="nsubj">198</dep>
+    <dep name="nsubj:cop">4</dep>
+    <dep name="nummod">153</dep>
+    <dep name="obj">3</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">1960</dep>
+    <dep name="root">120239</dep>
   </deps>
 </treebank>
