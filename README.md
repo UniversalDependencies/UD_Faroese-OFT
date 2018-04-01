@@ -7,6 +7,8 @@ This will be a treebank of Faroese based on the Faroese Wikipedia.
 
 # Acknowledgements
 
+The morphology and preliminary disambiguation was done by Trond Trosterud's 
+finite-state morphology and constraint grammar for Faroese.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
