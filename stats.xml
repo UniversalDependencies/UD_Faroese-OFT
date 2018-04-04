@@ -5,18 +5,84 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>132</sentences><tokens>1003</tokens><words>1003</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="426" /><!-- ., vera, í, og, av, stórur, á, ein, ,, Føroyar, hann, :, býur, eisini, kommuna -->
+  <forms unique="497" /><!-- ., í, er, og, eru, av, var, á, ,, :, ein, eisini, hann, sum, við -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="0">
+  <tags unique="14">
+    <tag name="ADJ">80</tag><!-- stórur, nógvur, høgur, danskur, franskur, føroyskur, langur, samur, triðji, 19 -->
+    <tag name="ADP">127</tag><!-- í, av, á, við, fyri, til, um, undir, sum, eftir -->
+    <tag name="ADV">30</tag><!-- eisini, nú, aftur, her, ikki, aftaná, fram, har, helst, leingi -->
+    <tag name="CCONJ">33</tag><!-- og, men, ella -->
+    <tag name="DET">21</tag><!-- ein, allur, eitt, summur -->
+    <tag name="NOUN">264</tag><!-- býur, kommuna, dagur, høvuðsstaður, land, oyggj, kapping, limur, Áland, ES -->
+    <tag name="NUM">27</tag><!-- %, 10-15, 11,3, 17, 18, 1928, 1931, 1946, 1957, 2000 -->
+    <tag name="PART">3</tag><!-- at -->
+    <tag name="PRON">25</tag><!-- hann, hon, eg, hesin, sum, tað, seg -->
+    <tag name="PROPN">72</tag><!-- Føroyar, Danmark, Keypmannahavn, Noreg, Grønland, Kankaanpää, Mariehamn, Oslo, Slovakia, Tórshavn -->
+    <tag name="PUNCT">154</tag><!-- ., ,, :, ", ! -->
+    <tag name="SCONJ">6</tag><!-- sum, hóast, ið, meðan -->
+    <tag name="VERB">156</tag><!-- vera, hava, liggja, koma, enda, verða, byrja, búgva, doyða, fara -->
+    <tag name="X">5</tag><!-- 40, 6,1, 73, 74, tá -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="26">
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">51</feat><!-- týdning, búskapin, dag, stóran, Hetta, Istanbul, Keypmannahavn, Liechtenstein, Mariehamn, Nógv -->
+    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">110</feat><!-- Føroyum, Danmark, ES, døgum, Noregi, einum, kommununi, landinum, ríkinum, 11,3 -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">16</feat><!-- Føroya, Tórshavnar, hansara, Fraklands, Fólkaháskúla, Kirkjubøar, Noregs, Russlands, Sandavágs, arbeiðsleys -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">305</feat><!-- ein, hann, eitt, hon, kommuna, størsta, %, høvuðsstaðurin, størsti, býur -->
+    <feat name="Definite" value="Def" upos="ADJ,NOUN,PROPN">127</feat><!-- størsta, høvuðsstaðurin, størsti, býurin, kappingin, oyggin, Ferðavinnan, Framsóknarflokkurin, Franska, Størstu -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,PROPN">254</feat><!-- Føroyum, kommuna, Danmark, Keypmannahavn, Áland, býur, døgum, limur, nógv, týdning -->
+    <feat name="Degree" value="Sup" upos="ADJ">13</feat><!-- størsta, størsti, Størstu, Flestu, hægsti -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">119</feat><!-- Føroyum, hon, kommuna, størsta, Danmark, Keypmannahavn, ein, kappingin, oyggin, Ferðavinnan -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">197</feat><!-- hann, ein, høvuðsstaðurin, størsti, býur, býurin, døgum, limur, týdning, Framsóknarflokkurin -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON,PROPN">108</feat><!-- eitt, Áland, Franska, Føroyskt, Grønland, Hetta, Noregi, ferðafólk, fótbóltslandsliðið, landinum -->
+    <feat name="Mood" value="Ind" upos="VERB">137</feat><!-- er, eru, var, liggur, vóru, hevur, kom, doyðu, stendur, verður -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">139</feat><!-- eru, Føroyum, vóru, døgum, Føroya, Føroyar, Størstu, Summir, doyðu, ferðafólk -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">457</feat><!-- er, var, ein, hann, eitt, hon, kommuna, liggur, størsta, Danmark -->
+    <feat name="NumType" value="Ord" upos="ADJ">2</feat><!-- 19., 2. -->
+    <feat name="Person" value="1" upos="PRON,VERB">4</feat><!-- eg, havi, taki -->
+    <feat name="Person" value="3" upos="PRON,VERB">115</feat><!-- er, var, hann, hon, liggur, hevur, kom, hansara, stendur, verður -->
+    <feat name="PronType" value="Dem" upos="PRON">2</feat><!-- Hetta -->
+    <feat name="PronType" value="Prs" upos="PRON">20</feat><!-- hann, hon, eg, hansara, Tað, Tey, henni -->
+    <feat name="PronType" value="Rel" upos="PRON">2</feat><!-- sum -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- seg -->
+    <feat name="Tense" value="Imp" upos="VERB">4</feat><!-- Sí, Drívið, end -->
+    <feat name="Tense" value="Past" upos="VERB">40</feat><!-- var, vóru, kom, doyðu, Bráðnaði, byrjaði, búsettust, endaði, flýggjaði, fór -->
+    <feat name="Tense" value="Pres" upos="VERB">97</feat><!-- er, eru, liggur, hevur, stendur, verður, Sigrar, byrjar, búgva, býr -->
+    <feat name="VerbForm" value="Inf" upos="VERB">8</feat><!-- fáa, gerast, goysa, klekjast, miðlast, royna, vera, víkja -->
+    <feat name="VerbForm" value="Sup" upos="VERB">7</feat><!-- dagfest, dyrkað, endurreist, funnið, merkt, stovnað, verið -->
+    <feat name="Voice" value="Pass" upos="VERB">8</feat><!-- búsettust, fæst, gerast, gjørdist, kemst, klekjast, legst, miðlast -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="26">
+    <dep name="acl">4</dep>
+    <dep name="advcl">6</dep>
+    <dep name="advmod">25</dep>
+    <dep name="amod">61</dep>
+    <dep name="appos">2</dep>
+    <dep name="aux">8</dep>
+    <dep name="aux:pass">2</dep>
+    <dep name="case">127</dep>
+    <dep name="cc">33</dep>
+    <dep name="compound">6</dep>
+    <dep name="conj">31</dep>
+    <dep name="cop">83</dep>
+    <dep name="dep">10</dep>
+    <dep name="det">21</dep>
+    <dep name="mark">9</dep>
+    <dep name="nmod">58</dep>
+    <dep name="nmod:poss">3</dep>
+    <dep name="nsubj">129</dep>
+    <dep name="nsubj:pass">3</dep>
+    <dep name="nummod">17</dep>
+    <dep name="obj">12</dep>
+    <dep name="obl">54</dep>
+    <dep name="parataxis">9</dep>
+    <dep name="punct">154</dep>
+    <dep name="root">132</dep>
+    <dep name="xcomp">4</dep>
   </deps>
 </treebank>
