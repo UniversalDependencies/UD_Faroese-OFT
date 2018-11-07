@@ -28,7 +28,7 @@ or second person, as can be expected from Wikipedia texts.
 The morphology and preliminary disambiguation was done by Trond Trosterud's 
 finite-state morphology and constraint grammar for Faroese.
 
-If you use this paper in your work, please cite:
+If you use this treebank in your work, please cite:
 
 ```
 @inproceedings{tyersetal18-faroese,
