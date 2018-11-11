@@ -18,10 +18,27 @@ or second person, as can be expected from Wikipedia texts.
 
 1. http://gtweb.uit.no/cgi-bin/smi/smi.cgi?text=%C3%81+tunguni+eru+sm%C3%A1ar+tenn.&action=analyze&lang=fao&plang=eng
 
+# Changelog
+
+* 2018-11-15 v1.0
+  * First release in UD
+
 # Acknowledgements
 
 The morphology and preliminary disambiguation was done by Trond Trosterud's 
 finite-state morphology and constraint grammar for Faroese.
+
+If you use this treebank in your work, please cite:
+
+```
+@inproceedings{tyersetal18-faroese,
+    author = {Francis M. Tyers and Mariya Sheyanova and Alexandra Martynova and Pavel Stepachev and Konstantin Vinogradovsky},
+    title = {Multi-source synthetic treebank creation for improved cross-lingual dependency parsing},
+    booktitle = {Proceedings of the Second Workshop on Universal Dependencies (UDW 2018)},
+    pages = {144--150},
+    year = 2018
+}
+```
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
