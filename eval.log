@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Faroese-OFT:
-commit 6bb00661e381899bbedbce8dc85af6f9494c94d2
-Merge: 48b822d 8893a1c
+commit fb55f713f7d799cec97e97e4ae6b762c94527aab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:09:45 2019 +0200
 Size: counted 10002 of 10002 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60557014599342.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 2699 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10002 words.
 Genres: found 1 out of 17 known.
 validate.py --lang fo --max-err=10 UD_Faroese-OFT/fo_oft-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 6 Sent wikipedia.vislcg.txt:1:0 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 31 Sent wikipedia.vislcg.txt:3:35 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 42 Sent wikipedia.vislcg.txt:4:53 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 48 Sent wikipedia.vislcg.txt:4:53 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 116 Sent wikipedia.vislcg.txt:9:169 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 134 Sent wikipedia.vislcg.txt:10:201 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 153 Sent wikipedia.vislcg.txt:11:221 Node 8]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 170 Sent wikipedia.vislcg.txt:12:255 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 181 Sent wikipedia.vislcg.txt:13:273 Node 4]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+...suppressing further errors regarding Syntax
+Syntax errors: 1051
+*** FAILED *** with 1051 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.350260843936669) * (availability=1) * (validity=1) = 0.350260843936669
-STARS = 2
-UD_Faroese-OFT	0.350260843936669	2
+(TOTAL score=0.350260843936669) * (availability=1) * (validity=0.01) = 0.00350260843936669
+STARS = 0
+UD_Faroese-OFT	0.00350260843936669	0
