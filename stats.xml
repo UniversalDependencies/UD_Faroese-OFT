@@ -14,10 +14,11 @@
   <forms unique="3131" /><!-- ., í, er, og, eru, ,, :, á, ein, var, av, at, eisini, við, størsti -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
+  <tags unique="16">
     <tag name="ADJ">760</tag><!-- stórur, nógvur, mangur, annar, føroyskur, gamal, góður, lítil, høgur, samur -->
     <tag name="ADP">1237</tag><!-- í, á, av, við, til, fyri, um, hjá, undir, frá -->
     <tag name="ADV">415</tag><!-- eisini, ikki, har, nú, so, enn, tó, tá, fyrr, ofta -->
+    <tag name="AUX">979</tag><!-- vera, verða, hava, kunna, skula, mega, koma, kunnu, vara -->
     <tag name="CCONJ">297</tag><!-- og, men, ella, bæði, antin -->
     <tag name="DET">186</tag><!-- ein, allur, sín, summur, annar, mín -->
     <tag name="INTJ">1</tag><!-- ja -->
@@ -28,7 +29,7 @@
     <tag name="PROPN">805</tag><!-- Føroyar, Noreg, Danmark, Kanada, Niðurlond, Amerika, Grønland, Russland, Tórshavn, Frakland -->
     <tag name="PUNCT">1564</tag><!-- ., ,, :, ", (, ), -, !, ;, / -->
     <tag name="SCONJ">48</tag><!-- sum, at, ið, meðan, tí, hóast, um -->
-    <tag name="VERB">1540</tag><!-- vera, hava, verða, síggja, koma, fara, gera, búgva, liggja, kunna -->
+    <tag name="VERB">561</tag><!-- hava, síggja, fara, koma, gera, vera, búgva, liggja, fáa, taka -->
     <tag name="X">42</tag><!-- fram, 23, 40, 90, tá, -, 1, 1,1, 10, 100 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -43,24 +44,24 @@
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1095</feat><!-- hon, Føroyum, ein, kommuna, kommunur, størsta, Føroya, Føroyar, kommunu, ár -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">1861</feat><!-- ein, størsti, býur, hann, høvuðsstaður, býurin, høvuðsstaðurin, landslutinum, partur, týdning -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">942</feat><!-- eitt, hetta, fólkinum, nógv, fólk, landinum, Noregi, mong, landi, landið -->
-    <feat name="Mood" value="Ind" upos="VERB">1332</feat><!-- er, eru, var, hevur, vóru, varð, verður, býr, kom, liggur -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,DET,NOUN,PRON,PROPN,VERB">1243</feat><!-- eru, Føroyum, vóru, nógv, fleiri, fólk, kommunur, Føroya, Føroyar, býnum -->
-    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">4511</feat><!-- er, ein, var, størsti, hon, býur, hann, eitt, høvuðsstaður, býurin -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">1332</feat><!-- er, eru, var, hevur, vóru, varð, verður, býr, kom, liggur -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">1243</feat><!-- eru, Føroyum, vóru, nógv, fleiri, fólk, kommunur, Føroya, Føroyar, býnum -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">4511</feat><!-- er, ein, var, størsti, hon, býur, hann, eitt, høvuðsstaður, býurin -->
     <feat name="NumType" value="Ord" upos="ADJ">39</feat><!-- 2., 1., 18., 19., 11., 12., 16., 17., 29., 3. -->
-    <feat name="Person" value="1" upos="PRON,VERB">11</feat><!-- vit, eg, havi, mín, okkara, okkum, taki -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">11</feat><!-- vit, eg, havi, mín, okkara, okkum, taki -->
     <feat name="Person" value="2" upos="PRON,VERB">2</feat><!-- sært, tú -->
-    <feat name="Person" value="3" upos="PRON,VERB">1130</feat><!-- er, var, hon, hann, tað, hevur, varð, verður, býr, kom -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">1130</feat><!-- er, var, hon, hann, tað, hevur, varð, verður, býr, kom -->
     <feat name="PronType" value="Dem" upos="PRON">31</feat><!-- hetta, Hettar, hesir -->
     <feat name="PronType" value="Int" upos="PRON">1</feat><!-- hvat -->
     <feat name="PronType" value="Prs" upos="PRON">201</feat><!-- hon, hann, tað, teir, hansara, tey, henni, honum, vit, eg -->
     <feat name="PronType" value="Rel" upos="PRON">31</feat><!-- sum, ið -->
     <feat name="Reflex" value="Yes" upos="PRON">18</feat><!-- seg, sær -->
     <feat name="Tense" value="Imp" upos="VERB">16</feat><!-- Sí, Drívið, Les, end -->
-    <feat name="Tense" value="Past" upos="VERB">324</feat><!-- var, vóru, varð, kom, fór, hevði, tók, gjørdist, vann, bleiv -->
-    <feat name="Tense" value="Pres" upos="VERB">1008</feat><!-- er, eru, hevur, verður, býr, liggur, kann, fer, skal, hava -->
-    <feat name="VerbForm" value="Inf" upos="VERB">114</feat><!-- vera, síggja, fáa, gera, koma, byggja, eta, hava, ganga, gerast -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">324</feat><!-- var, vóru, varð, kom, fór, hevði, tók, gjørdist, vann, bleiv -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">1008</feat><!-- er, eru, hevur, verður, býr, liggur, kann, fer, skal, hava -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">114</feat><!-- vera, síggja, fáa, gera, koma, byggja, eta, hava, ganga, gerast -->
     <feat name="VerbForm" value="Part" upos="VERB">16</feat><!-- nevndur, Sameindu, fingin, flettir, fluttur, framdur, gjørdur, hóskandi, kendastur, keyptir -->
-    <feat name="VerbForm" value="Sup" upos="VERB">77</feat><!-- verið, sæst, gjørt, kent, lagt, dyrkað, endurreist, friðað, funnið, havt -->
+    <feat name="VerbForm" value="Sup" upos="AUX,VERB">77</feat><!-- verið, sæst, gjørt, kent, lagt, dyrkað, endurreist, friðað, funnið, havt -->
     <feat name="Voice" value="Pass" upos="VERB">48</feat><!-- gjørdist, sæst, fæst, nevnist, búsettust, gerast, Andaðist, berast, berjast, boksast -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
