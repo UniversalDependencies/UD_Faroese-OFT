@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Faroese-OFT:
-commit f577e928f01b19747f45dbf355f304cfc76e02d5
+commit b07659ec666b24386b39ab4af5439ff435eb769d
+Merge: ee9fe0d 17a4ed6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:59:28 2019 +0100
 Size: counted 10002 of 10002 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60557014599342.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -13,28 +13,28 @@ Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 6276 out of 10002 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2700 bugs.
+Udapi: found 864 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10002 words.
 Genres: found 1 out of 17 known.
 validate.py --lang fo --max-err=10 UD_Faroese-OFT/fo_oft-ud-test.conllu
-[Line 6 Sent wikipedia.vislcg.txt:1:0 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 31 Sent wikipedia.vislcg.txt:3:35 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 42 Sent wikipedia.vislcg.txt:4:53 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 48 Sent wikipedia.vislcg.txt:4:53 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 116 Sent wikipedia.vislcg.txt:9:169 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 134 Sent wikipedia.vislcg.txt:10:201 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 153 Sent wikipedia.vislcg.txt:11:221 Node 8]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 170 Sent wikipedia.vislcg.txt:12:255 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 181 Sent wikipedia.vislcg.txt:13:273 Node 4]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 230 Sent wikipedia.vislcg.txt:16:345 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 440 Sent wikipedia.vislcg.txt:31:685 Node 3]: [L5 Syntax cop-lemma] 'verða' is not a copula in language [fo]
+[Line 594 Sent wikipedia.vislcg.txt:43:925 Node 5]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (5:skulu:aux --> 1:Limirnir:nsubj)
+[Line 1101 Sent wikipedia.vislcg.txt:82:1701 Node 3]: [L5 Syntax cop-lemma] 'verða' is not a copula in language [fo]
+[Line 1750 Sent wikipedia.vislcg.txt:133:2693 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
+[Line 2132 Sent wikipedia.vislcg.txt:163:3271 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:verið:cop --> 6:er:cop)
+[Line 2133 Sent wikipedia.vislcg.txt:163:3271 Node 6]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (6:er:cop --> 7:framvegis:advmod)
+[Line 2664 Sent wikipedia.vislcg.txt:206:4079 Node 3]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (3:omanfyri:case --> 5:sunnanfyri:case)
+[Line 2759 Sent wikipedia.vislcg.txt:214:4227 Node 5]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (5:undir:case --> 2:oyggjar:nsubj)
 ...suppressing further errors regarding Syntax
-Syntax errors: 1051
-*** FAILED *** with 1051 errors
+Syntax errors: 72
+*** FAILED *** with 72 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -42,9 +42,9 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.333362283403883) = 0.0854775085650982
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
+(weight=0.307692307692308) * (score{udapi}=0.136172765446911) = 0.0418993124452033
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.350260843936669) * (availability=1) * (validity=0.01) = 0.00350260843936669
+(TOTAL score=0.392703142807211) * (availability=1) * (validity=0.01) = 0.00392703142807212
 STARS = 0
-UD_Faroese-OFT	0.00350260843936669	0
+UD_Faroese-OFT	0.00392703142807212	0
