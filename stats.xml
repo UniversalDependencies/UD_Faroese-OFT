@@ -65,9 +65,8 @@
     <feat name="Voice" value="Pass" upos="VERB">48</feat><!-- gjørdist, sæst, fæst, nevnist, búsettust, gerast, Andaðist, berast, berjast, boksast -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
-    <dep name="acl">32</dep>
-    <dep name="acl:cleft">1</dep>
+  <deps unique="35">
+    <dep name="acl">34</dep>
     <dep name="acl:relcl">15</dep>
     <dep name="advcl">52</dep>
     <dep name="advmod">382</dep>
@@ -83,7 +82,7 @@
     <dep name="conj">293</dep>
     <dep name="cop">875</dep>
     <dep name="csubj">18</dep>
-    <dep name="dep">86</dep>
+    <dep name="dep">85</dep>
     <dep name="det">184</dep>
     <dep name="discourse">1</dep>
     <dep name="expl">18</dep>
