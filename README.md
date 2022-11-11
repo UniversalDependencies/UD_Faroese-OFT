@@ -10,7 +10,7 @@ took all the sentences and discarded those with unknown words.
 
 The remaining sentences were manually annotated for Universal Dependencies
 and the morphology and POS tags were converted deterministically using
-a lookup table. Errors in the original morphology and disambiguation 
+a lookup table. Errors in the original morphology and disambiguation
 were corrected where found.
 
 The treebank contains a lot of copula sentences and very little first
@@ -20,12 +20,14 @@ or second person, as can be expected from Wikipedia texts.
 
 # Changelog
 
-* 2018-11-15 v1.0
+* 2022-11-15 v2.11
+  * Fixed various validation errors
+* 2018-11-15 v2.2
   * First release in UD
 
 # Acknowledgements
 
-The morphology and preliminary disambiguation was done by Trond Trosterud's 
+The morphology and preliminary disambiguation was done by Trond Trosterud's
 finite-state morphology and constraint grammar for Faroese.
 
 If you use this treebank in your work, please cite:
@@ -45,7 +47,7 @@ If you use this treebank in your work, please cite:
 Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: wiki 
+Genre: wiki
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
