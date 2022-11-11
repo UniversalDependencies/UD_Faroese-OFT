@@ -10,15 +10,15 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1208</sentences><tokens>10002</tokens><words>10002</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2399" /><!-- ., vera, í, og, ,, ein, stórur, :, býur, á, av, at, eisini, høvuðsstaður, við -->
+  <lemmas unique="2398" /><!-- ., vera, í, og, ,, ein, stórur, :, býur, á, av, at, eisini, høvuðsstaður, við -->
   <forms unique="3131" /><!-- ., í, er, og, eru, ,, :, á, ein, var, av, at, eisini, við, størsti -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">760</tag><!-- stórur, nógvur, mangur, annar, føroyskur, gamal, góður, lítil, høgur, samur -->
-    <tag name="ADP">1237</tag><!-- í, á, av, við, til, fyri, um, hjá, undir, frá -->
-    <tag name="ADV">415</tag><!-- eisini, ikki, har, nú, so, enn, tó, tá, fyrr, ofta -->
-    <tag name="AUX">979</tag><!-- vera, verða, hava, kunna, skula, mega, koma, kunnu, vara -->
+    <tag name="ADP">1226</tag><!-- í, á, av, við, til, fyri, um, hjá, undir, eftir -->
+    <tag name="ADV">426</tag><!-- eisini, ikki, har, nú, so, enn, tó, tá, fyrr, ofta -->
+    <tag name="AUX">967</tag><!-- vera, verða, hava, kunna, skula, mega -->
     <tag name="CCONJ">297</tag><!-- og, men, ella, bæði, antin -->
     <tag name="DET">186</tag><!-- ein, allur, sín, summur, annar, mín -->
     <tag name="INTJ">1</tag><!-- ja -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">805</tag><!-- Føroyar, Noreg, Danmark, Kanada, Niðurlond, Amerika, Grønland, Russland, Tórshavn, Frakland -->
     <tag name="PUNCT">1564</tag><!-- ., ,, :, ", (, ), -, !, ;, / -->
     <tag name="SCONJ">48</tag><!-- sum, at, ið, meðan, tí, hóast, um -->
-    <tag name="VERB">561</tag><!-- hava, síggja, fara, koma, gera, vera, búgva, liggja, fáa, taka -->
+    <tag name="VERB">573</tag><!-- hava, síggja, koma, fara, gera, vera, búgva, liggja, verða, fáa -->
     <tag name="X">42</tag><!-- fram, 23, 40, 90, tá, -, 1, 1,1, 10, 100 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -65,41 +65,42 @@
     <feat name="Voice" value="Pass" upos="VERB">48</feat><!-- gjørdist, sæst, fæst, nevnist, búsettust, gerast, Andaðist, berast, berjast, boksast -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
+  <deps unique="36">
     <dep name="acl">34</dep>
     <dep name="acl:relcl">15</dep>
     <dep name="advcl">52</dep>
-    <dep name="advmod">382</dep>
+    <dep name="advmod">373</dep>
     <dep name="amod">620</dep>
     <dep name="appos">28</dep>
-    <dep name="aux">66</dep>
+    <dep name="aux">65</dep>
     <dep name="aux:pass">38</dep>
-    <dep name="case">1225</dep>
+    <dep name="case">1224</dep>
     <dep name="cc">294</dep>
     <dep name="cc:preconj">3</dep>
     <dep name="ccomp">18</dep>
     <dep name="compound">23</dep>
-    <dep name="conj">293</dep>
-    <dep name="cop">875</dep>
+    <dep name="conj">295</dep>
+    <dep name="cop">863</dep>
     <dep name="csubj">18</dep>
-    <dep name="dep">85</dep>
-    <dep name="det">184</dep>
+    <dep name="dep">76</dep>
+    <dep name="det">186</dep>
     <dep name="discourse">1</dep>
-    <dep name="expl">18</dep>
+    <dep name="expl">19</dep>
+    <dep name="fixed">9</dep>
     <dep name="flat">49</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">126</dep>
-    <dep name="nmod">335</dep>
+    <dep name="nmod">339</dep>
     <dep name="nmod:poss">89</dep>
-    <dep name="nsubj">1248</dep>
+    <dep name="nsubj">1247</dep>
     <dep name="nsubj:pass">3</dep>
-    <dep name="nummod">149</dep>
+    <dep name="nummod">147</dep>
     <dep name="obj">147</dep>
-    <dep name="obl">632</dep>
+    <dep name="obl">637</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">134</dep>
     <dep name="punct">1564</dep>
     <dep name="root">1208</dep>
-    <dep name="xcomp">43</dep>
+    <dep name="xcomp">55</dep>
   </deps>
 </treebank>

@@ -436,13 +436,13 @@
 # text[eng] = In 2011 he was qualified as a teacher.
 # labels = to_check
 1	Í	í	ADP	Pr	_	2	case	_	_
-2	2011	2011	NUM	Num	Case=Dat	5	obl	_	_
-3	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
-4	hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	útbúgvin	útbúgvin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+2	2011	2011	NUM	Num	Case=Dat	3	obl	_	_
+3	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	útbúgvin	útbúgvin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	_
 6	sum	sum	SCONJ	CS	_	7	mark	_	_
-7	lærari	lærari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
-8	.	.	PUNCT	CLB	_	5	punct	_	_
+7	lærari	lærari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:32:705
 # text = Mánadagur: Mánadagur er ein vikudagur.
@@ -1097,10 +1097,10 @@
 # text[eng] =
 # labels = to_check
 1	Lívsneyðugur	lívsneyðugur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	amod	_	_
-2	heilivágur	heilivágur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	verður	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-4	ókeypis	ókeypis	ADV	Adv	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	CLB	_	4	punct	_	_
+2	heilivágur	heilivágur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	ókeypis	ókeypis	ADV	Adv	_	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:83:1715
 # text = Við tíðini settust nógvir norðbúgvar í Grønlandi.
@@ -2926,14 +2926,14 @@
 # text = Miðskeiðis í 19. øld varð sjóstúkan stásbúni.
 # text[eng] = In the middle of the 19th century the black homespun coat became fancy clothing.
 # labels = to_check
-1	Miðskeiðis	miðskeiðis	ADV	Adv	_	7	advmod	_	_
+1	Miðskeiðis	miðskeiðis	ADV	Adv	_	5	advmod	_	_
 2	í	í	ADP	Pr	_	4	case	_	_
 3	19.	19	ADJ	A	NumType=Ord	4	amod	_	_
-4	øld	øld	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
-5	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
-6	sjóstúkan	sjóstúka	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
-7	stásbúni	stásbúni	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	CLB	_	7	punct	_	_
+4	øld	øld	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	_
+5	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	sjóstúkan	sjóstúka	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	stásbúni	stásbúni	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:227:4517
 # text = Sí eisini.
@@ -3023,25 +3023,25 @@
 # text = "Sendistovan í Russlandi verður eitt týdningarmikið amboð hjá Føroyum at styrkja handilsviðurskiftini við Russland og onnur eystanlond", segði Johannesen.
 # text[eng] =
 # labels = to_check
-1	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
-2	Sendistovan	sendistova	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	Sendistovan	sendistova	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	í	í	ADP	Pr	_	4	case	_	_
 4	Russlandi	Russland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
-5	verður	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+5	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	ccomp	_	_
 6	eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	8	det	_	_
 7	týdningarmikið	týdningarmikil	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	amod	_	_
-8	amboð	amboð	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	ccomp	_	_
+8	amboð	amboð	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	xcomp	_	_
 9	hjá	hjá	ADP	Pr	_	10	case	_	_
 10	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	8	nmod:poss	_	_
 11	at	at	PART	IM	_	12	mark	_	_
-12	styrkja	styrkja	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	styrkja	styrkja	VERB	V	VerbForm=Inf	5	advcl	_	_
 13	handilsviðurskiftini	handilviðurskifti	NOUN	N	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obj	_	_
 14	við	við	ADP	Pr	_	15	case	_	_
 15	Russland	Russland	PROPN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	_
 16	og	og	CCONJ	CC	_	18	cc	_	_
 17	onnur	annar	ADJ	A	Case=Acc|Gender=Neut|Number=Plur	18	amod	_	_
 18	eystanlond	eystanlond	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	15	conj	_	SpaceAfter=No
-19	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 20	,	,	PUNCT	CLB	_	21	punct	_	_
 21	segði	siga	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 22	Johannesen	Johannesen	PROPN	N	Case=Nom|Number=Sing	21	nsubj	_	SpaceAfter=No
@@ -3051,17 +3051,17 @@
 # text = Sendistovan í Russlandi verður eitt týdningarmikið amboð hjá okkum at styrkja handilsviðurskiftini við Russland og onnur eystanlond.
 # text[eng] =
 # labels = to_check
-1	Sendistovan	sendistova	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
+1	Sendistovan	sendistova	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	í	í	ADP	Pr	_	3	case	_	_
 3	Russlandi	Russland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	_
-4	verður	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+4	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	7	det	_	_
 6	týdningarmikið	týdningarmikil	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	amod	_	_
-7	amboð	amboð	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+7	amboð	amboð	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	xcomp	_	_
 8	hjá	hjá	ADP	Pr	_	9	case	_	_
 9	okkum	vit	PRON	Pron	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	nmod:poss	_	_
 10	at	at	PART	IM	_	11	mark	_	_
-11	styrkja	styrkja	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	styrkja	styrkja	VERB	V	VerbForm=Inf	4	advcl	_	_
 12	handilsviðurskiftini	handilviðurskifti	NOUN	N	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	11	obj	_	_
 13	við	við	ADP	Pr	_	14	case	_	_
 14	Russland	Russland	PROPN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	_
@@ -6149,13 +6149,13 @@
 # labels = to_check
 1	Sum	sum	SCONJ	CS	_	3	mark	_	_
 2	tíðin	tíð	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
-3	leið	líða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	advcl	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	8	punct	_	_
-5	vórðu	verða	AUX	V	Mood=Ind|Number=Plur|Tense=Past	8	cop	_	_
-6	tey	tað	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+3	leið	líða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	vórðu	verða	VERB	V	Mood=Ind|Number=Plur|Tense=Past	0	root	_	_
+6	tey	tað	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 7	til	til	ADP	Pr	_	8	case	_	_
-8	olju	olja	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	CLB	_	8	punct	_	_
+8	olju	olja	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:470:9503
 # text = Samferðslan gjørdi eisini, at útsjóndin á býinum broyttist.
@@ -7547,13 +7547,13 @@
 # labels = to_check
 1	Frá	frá	ADP	Pr	_	3	case	_	_
 2	sama	samur	ADJ	A	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	3	amod	_	_
-3	degi	dagur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
-4	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	cop	_	_
-5	floghavnin	floghavn	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	_
-6	landsstovnur	landstovnur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+3	degi	dagur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
+4	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	floghavnin	floghavn	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	landsstovnur	landstovnur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	_
 7	undir	undir	ADP	Pr	_	8	case	_	_
-8	Vinnumálaráðnum	vinnamálráð	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	CLB	_	6	punct	_	_
+8	Vinnumálaráðnum	vinnamálráð	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:576:11663
 # text = Høvuðsstaðurin og størsti býurin er Providence.
@@ -7747,11 +7747,11 @@
 7	svam	svimja	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	acl	_	_
 8	í	í	ADP	Pr	_	9	case	_	_
 9	finaluni	finala	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	14	punct	_	_
-11	sum	sum	PRON	Pron	PronType=Rel	14	nsubj	_	_
-12	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	cop	_	_
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	sum	sum	PRON	Pron	PronType=Rel	12	nsubj	_	_
+12	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	acl	_	_
 13	11.	11	ADJ	A	NumType=Ord	14	amod	_	_
-14	august	august	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	acl	_	SpaceAfter=No
+14	august	august	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:591:11971
@@ -8137,16 +8137,16 @@
 # text[eng] = Around 550 BC there was a settlement in Odessa of Greeks.
 # labels = to_check
 1	Umleið	umleið	ADP	Pr	_	2	case	_	_
-2	550	550	NUM	Num	_	0	root	_	_
+2	550	550	NUM	Num	_	4	xcomp	_	_
 3	á.Kr.	á.kr	NOUN	Abbr	_	2	nmod	_	_
-4	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	ein	ein	DET	Det	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
-6	búseting	búseting	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	búseting	búseting	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	í	í	ADP	Pr	_	8	case	_	_
 8	Odessa	Odessa	PROPN	N	Case=Nom|Number=Sing	6	nmod	_	_
 9	av	av	ADP	Pr	_	10	case	_	_
 10	grikkum	grikki	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	CLB	_	2	punct	_	_
+11	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:621:12579
 # text = Tama áin skilir býin frá høvuðsstaðnum.
@@ -9085,11 +9085,11 @@
 # text = Hon varð 62 ár.
 # text[eng] = She was 62 years old.
 # labels = to_check
-1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	varð	verða	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
+1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	varð	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	62	62	NUM	Num	Case=Nom	4	nummod	_	_
-4	ár	ár	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	CLB	_	4	punct	_	_
+4	ár	ár	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:689:14057
 # text = Úr kirkjutorninum sæst út yvir allan býin og yvir í Donau.
@@ -11150,13 +11150,13 @@
 # labels = to_check
 1	Í	í	ADP	Pr	_	3	case	_	_
 2	16.	16	ADJ	A	NumType=Ord	3	amod	_	_
-3	øld	øld	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	_
-4	vórðu	verða	AUX	V	Mood=Ind|Number=Plur|Tense=Past	6	cop	_	_
-5	stívarar	stívari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
-6	settir	settur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
+3	øld	øld	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	_
+4	vórðu	verða	VERB	V	Mood=Ind|Number=Plur|Tense=Past	0	root	_	_
+5	stívarar	stívari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	settir	settur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	xcomp	_	_
 7	í	í	ADP	Pr	_	8	case	_	_
-8	konufólkakjólar	konufólkkjóli	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	CLB	_	6	punct	_	_
+8	konufólkakjólar	konufólkkjóli	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:846:17249
 # text = Í tveir dagar tóku tær móti bretskum fjølmiðlum og innkeyparum.
