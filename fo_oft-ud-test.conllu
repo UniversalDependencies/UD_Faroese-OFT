@@ -15916,11 +15916,11 @@
 
 # sent_id = wikipedia.vislcg.txt:1200:24637
 # text = Í dag varir kappingin í tríggjar vikur.
-# text[eng] =
+# text[eng] = Today, the race lasts for three weeks.
 # labels = to_check
 1	Í	í	ADP	Pr	_	2	case	_	_
-2	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
-3	varir	vara	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+2	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_
+3	varir	vera	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 4	kappingin	kapping	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	í	í	ADP	Pr	_	7	case	_	_
 6	tríggjar	trý	NUM	Num	Case=Acc|Gender=Fem|Number=Sing	7	nummod	_	_
