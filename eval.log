@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Faroese-OFT:
-commit efb95f31b778cba9f420bdeea6965e1a96ba0676
+commit e848b75df32c0f6d2b75e3d3a40ed2ffb0a1fd6a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:13:13 2024 +0200
+Date:   Mon Nov 11 15:21:01 2024 +0100
 Size: counted 10002 of 10002 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60557014599342.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,31 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        839
-Udapi: found 839 bugs.
+               TOTAL        837
+Udapi: found 837 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10002 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fo --max-err=10 UD_Faroese-OFT/fo_oft-ud-test.conllu
+[Line 2964 Sent wikipedia.vislcg.txt:229:4549 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tá ið' does not have the 'ExtPos' feature
+[Line 3787 Sent wikipedia.vislcg.txt:291:5819 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 4215 Sent wikipedia.vislcg.txt:325:6469 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 4571 Sent wikipedia.vislcg.txt:351:7031 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Mitt í' does not have the 'ExtPos' feature
+[Line 10966 Sent wikipedia.vislcg.txt:832:16925 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 11211 Sent wikipedia.vislcg.txt:849:17317 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'tá ið' does not have the 'ExtPos' feature
+[Line 12319 Sent wikipedia.vislcg.txt:931:19047 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Fram við' does not have the 'ExtPos' feature
+[Line 12425 Sent wikipedia.vislcg.txt:939:19191 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 14513 Sent wikipedia.vislcg.txt:1100:22399 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.333362283403883) = 0.0854775085650982
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.161167766446711) = 0.0495900819836033
+(weight=0.307692307692308) * (score{udapi}=0.163167366526695) = 0.0502053435466753
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.402472914424614) * (availability=1) * (validity=1) = 0.402472914424614
+(TOTAL score=0.402836793383362) * (availability=1) * (validity=1) = 0.402836793383362
 STARS = 2
-UD_Faroese-OFT	0.402472914424614	2
+UD_Faroese-OFT	0.402836793383362	2
