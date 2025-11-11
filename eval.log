@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Faroese-OFT:
-commit e848b75df32c0f6d2b75e3d3a40ed2ffb0a1fd6a
+commit b28552014a48fcf3a2d8e11a09e233dc3e3c0aec
+Merge: bf81d10 6fc8b8b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:21:01 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'fo_oft'
+Language code (from CoNLL-U file name) = 'fo'
+Found the following data files: fo_oft-ud-test.conllu
 Size: counted 10002 of 10002 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.60557014599342.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,32 +23,29 @@ Features: 6276 out of 10002 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        837
-Udapi: found 837 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 10002 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fo --max-err=10 UD_Faroese-OFT/fo_oft-ud-test.conllu
-[Line 2964 Sent wikipedia.vislcg.txt:229:4549 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tá ið' does not have the 'ExtPos' feature
-[Line 3787 Sent wikipedia.vislcg.txt:291:5819 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
-[Line 4215 Sent wikipedia.vislcg.txt:325:6469 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
-[Line 4571 Sent wikipedia.vislcg.txt:351:7031 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Mitt í' does not have the 'ExtPos' feature
-[Line 10966 Sent wikipedia.vislcg.txt:832:16925 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
-[Line 11211 Sent wikipedia.vislcg.txt:849:17317 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'tá ið' does not have the 'ExtPos' feature
-[Line 12319 Sent wikipedia.vislcg.txt:931:19047 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Fram við' does not have the 'ExtPos' feature
-[Line 12425 Sent wikipedia.vislcg.txt:939:19191 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
-[Line 14513 Sent wikipedia.vislcg.txt:1100:22399 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
-Warnings: 9
+[Line 43 Sent wikipedia.vislcg.txt:4:53]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 154 Sent wikipedia.vislcg.txt:11:221]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 199 Sent wikipedia.vislcg.txt:14:297]: [L3 Warning pron-det-without-prontype] The word 'allir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 237 Sent wikipedia.vislcg.txt:17:367]: [L3 Warning pron-det-without-prontype] The word 'Øll' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 281 Sent wikipedia.vislcg.txt:20:433]: [L3 Warning pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 337 Sent wikipedia.vislcg.txt:24:525]: [L3 Warning pron-det-without-prontype] The word 'Ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 379 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'Allar' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 382 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'øll' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 388 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 455 Sent wikipedia.vislcg.txt:32:705]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 228
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.333362283403883) = 0.0854775085650982
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.163167366526695) = 0.0502053435466753
-(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.402836793383362) * (availability=1) * (validity=1) = 0.402836793383362
-STARS = 2
-UD_Faroese-OFT	0.402836793383362	2
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.333362283403883) = 0.123467512371809
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.509356538652992) * (availability=1) * (validity=1) = 0.509356538652992
+STARS = 2.5
+UD_Faroese-OFT	0.509356538652992	2.5
