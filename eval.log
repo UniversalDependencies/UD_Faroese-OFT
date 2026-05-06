@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Faroese-OFT:
-commit b28552014a48fcf3a2d8e11a09e233dc3e3c0aec
-Merge: bf81d10 6fc8b8b
+commit 70786cfa4e1755cabc17017e2d90c8d1f238f0a0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:23:45 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fo_oft'
 Language code (from CoNLL-U file name) = 'fo'
@@ -25,20 +25,35 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fo --max-err=10 UD_Faroese-OFT/fo_oft-ud-test.conllu
-[Line 43 Sent wikipedia.vislcg.txt:4:53]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 154 Sent wikipedia.vislcg.txt:11:221]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 199 Sent wikipedia.vislcg.txt:14:297]: [L3 Warning pron-det-without-prontype] The word 'allir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 237 Sent wikipedia.vislcg.txt:17:367]: [L3 Warning pron-det-without-prontype] The word 'Øll' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 281 Sent wikipedia.vislcg.txt:20:433]: [L3 Warning pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 337 Sent wikipedia.vislcg.txt:24:525]: [L3 Warning pron-det-without-prontype] The word 'Ein' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 379 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'Allar' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 382 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'øll' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 388 Sent wikipedia.vislcg.txt:27:591]: [L3 Warning pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 455 Sent wikipedia.vislcg.txt:32:705]: [L3 Warning pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 228
-*** PASSED ***
-Validity: 1
+[Line 43 Sent wikipedia.vislcg.txt:4:53]: [L3 WARNING pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 154 Sent wikipedia.vislcg.txt:11:221]: [L3 WARNING pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 199 Sent wikipedia.vislcg.txt:14:297]: [L3 WARNING pron-det-without-prontype] The word 'allir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 237 Sent wikipedia.vislcg.txt:17:367]: [L3 WARNING pron-det-without-prontype] The word 'Øll' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 281 Sent wikipedia.vislcg.txt:20:433]: [L3 WARNING pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 337 Sent wikipedia.vislcg.txt:24:525]: [L3 WARNING pron-det-without-prontype] The word 'Ein' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 379 Sent wikipedia.vislcg.txt:27:591]: [L3 WARNING pron-det-without-prontype] The word 'Allar' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 382 Sent wikipedia.vislcg.txt:27:591]: [L3 WARNING pron-det-without-prontype] The word 'øll' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 388 Sent wikipedia.vislcg.txt:27:591]: [L3 WARNING pron-det-without-prontype] The word 'eitt' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 455 Sent wikipedia.vislcg.txt:32:705]: [L3 WARNING pron-det-without-prontype] The word 'ein' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2964 Sent wikipedia.vislcg.txt:229:4549]: [L3 WARNING fixed-without-extpos] Fixed expression 'Tá ið' does not have the 'ExtPos' feature
+[Line 3787 Sent wikipedia.vislcg.txt:291:5819]: [L3 WARNING fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 4205 Sent wikipedia.vislcg.txt:324:6441]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'veljaraskaranum') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4215 Sent wikipedia.vislcg.txt:325:6469]: [L3 WARNING fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 4571 Sent wikipedia.vislcg.txt:351:7031]: [L3 WARNING fixed-without-extpos] Fixed expression 'Mitt í' does not have the 'ExtPos' feature
+[Line 5867 Sent wikipedia.vislcg.txt:449:9021]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'altars') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9075 Sent wikipedia.vislcg.txt:687:14009]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'Kvinnuráðstevnuni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10966 Sent wikipedia.vislcg.txt:832:16925]: [L3 WARNING fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 11211 Sent wikipedia.vislcg.txt:849:17317]: [L3 WARNING fixed-without-extpos] Fixed expression 'tá ið' does not have the 'ExtPos' feature
+[Line 11527 Sent wikipedia.vislcg.txt:871:17813]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'kirkjan') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12319 Sent wikipedia.vislcg.txt:931:19047]: [L3 WARNING fixed-without-extpos] Fixed expression 'Fram við' does not have the 'ExtPos' feature
+[Line 12425 Sent wikipedia.vislcg.txt:939:19191]: [L3 WARNING fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+[Line 14513 Sent wikipedia.vislcg.txt:1100:22399]: [L3 WARNING fixed-without-extpos] Fixed expression 'fram við' does not have the 'ExtPos' feature
+Warnings: 223
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -46,6 +61,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
 (weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.509356538652992) * (availability=1) * (validity=1) = 0.509356538652992
-STARS = 2.5
-UD_Faroese-OFT	0.509356538652992	2.5
+(TOTAL score=0.509356538652992) * (availability=1) * (validity=0.01) = 0.00509356538652992
+STARS = 0
+UD_Faroese-OFT	0.00509356538652992	0
