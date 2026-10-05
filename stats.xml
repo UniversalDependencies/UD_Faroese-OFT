@@ -90,13 +90,13 @@
     <dep name="flat">49</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">126</dep>
-    <dep name="nmod">339</dep>
+    <dep name="nmod">344</dep>
     <dep name="nmod:poss">89</dep>
     <dep name="nsubj">1247</dep>
     <dep name="nsubj:pass">3</dep>
     <dep name="nummod">147</dep>
     <dep name="obj">147</dep>
-    <dep name="obl">637</dep>
+    <dep name="obl">632</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">134</dep>
     <dep name="punct">1564</dep>

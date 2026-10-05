@@ -620,7 +620,7 @@
 # labels = to_check
 1	Frá	frá	ADP	Pr	_	3	case	_	_
 2	gamlari	gamal	ADJ	A	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	amod	_	_
-3	tíð	tíð	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	_
+3	tíð	tíð	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	_
 4	er	vera	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 5	nógv	nógvur	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	amod	_	_
 6	kol	kol	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
@@ -4202,7 +4202,7 @@
 8	av	av	ADP	Pr	_	9	case	_	_
 9	veljaraskaranum	veljaraskari	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
 10	í	í	ADP	Pr	_	11	case	_	_
-11	Fraklandi	Frakland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+11	Fraklandi	Frakland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:325:6469
@@ -5864,7 +5864,7 @@
 5	til	til	ADP	Pr	_	6	case	_	_
 6	altars	altar	NOUN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	_
 7	í	í	ADP	Pr	_	8	case	_	_
-8	kirkjuni	kirkja	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	_
+8	kirkjuni	kirkja	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	_
 9	er	vera	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 10	til	til	ADP	Pr	_	11	case	_	_
 11	minnis	minni	NOUN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
@@ -9072,7 +9072,7 @@
 5	á	á	ADP	Pr	_	6	case	_	_
 6	Kvinnuráðstevnuni	kvinnaráðstevna	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	_
 7	í	í	ADP	Pr	_	8	case	_	_
-8	Peking	Peking	PROPN	N	Case=Acc|Number=Sing	6	obl	_	_
+8	Peking	Peking	PROPN	N	Case=Acc|Number=Sing	6	nmod	_	_
 9	og	og	CCONJ	CC	_	11	cc	_	_
 10	í	í	ADP	Pr	_	11	case	_	_
 11	2000	2000	NUM	Num	Case=Dat	3	conj	_	_
@@ -11524,7 +11524,7 @@
 3	telur	telja	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	kirkjan	kirkja	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	í	í	ADP	Pr	_	6	case	_	_
-6	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
+6	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 7	1	1	X	x	_	8	dep	_	_
 8	500	500	NUM	Num	Case=Acc	9	nummod	_	_
 9	kirkjulið	kirkjulið	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
